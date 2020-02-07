@@ -1,0 +1,5 @@
+/target/
+/battis.iml
+/.idea/
+/dependency-reduced-pom.xml
+/bootique.mybatis.demo.iml
