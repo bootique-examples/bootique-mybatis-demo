@@ -28,10 +28,10 @@ Import demo database schema:
 
 Now you can check the options available in your app:
 
-    $ java -jar target/bootique.mybatis.demo-1.0-SNAPSHOT.jar 
+    $ java -jar target/bootique.mybatis.demo-2.0.jar 
 
     NAME
-      bootique.mybatis.demo-1.0-SNAPSHOT.jar
+      bootique.mybatis.demo-2.0.jar
 
     OPTIONS
       -a artistId, --artistId=artistId
@@ -73,20 +73,20 @@ Now you can check the options available in your app:
 
 Insert data into database via --insert-artist command:
 
-    java -jar target/bootique.mybatis.demo-1.0-SNAPSHOT.jar --insert-artist --name="Pablo Picasso"
+    java -jar target/bootique.mybatis.demo-2.0.jar --insert-artist --name="Pablo Picasso"
 
     Artist{artistId=0, artistName=Pablo Picasso'} Inserted
 
 
 Select all table via --get-all-artists command:
 
-    $ java -jar target/bootique.mybatis.demo-1.0-SNAPSHOT.jar  --get-all-artists
+    $ java -jar target/bootique.mybatis.demo-2.0.jar --get-all-artists
 
     [Artist{artistId=1, artistName='Pablo Picasso'}, Artist{artistId=2, artistName='Vincent van Gogh'}, Artist{artistId=3, artistName='Andy Warhol'}]
 
 Select one by id via --get-all-artists command:
 
-    $ java -jar target/bootique.mybatis.demo-1.0-SNAPSHOT.jar --get-artist-by-id --id=1 
+    $ java -jar target/bootique.mybatis.demo-2.0.jar --get-artist-by-id --id=1 
 
     Artist{artistId=3, artistName='Pablo Picasso'}
 

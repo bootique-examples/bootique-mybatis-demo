@@ -1,8 +1,8 @@
 package io.bootique.mybatis.demo;
 
 import io.bootique.BQCoreModule;
+import io.bootique.BaseModule;
 import io.bootique.Bootique;
-import io.bootique.di.BQModule;
 import io.bootique.di.Binder;
 import io.bootique.meta.application.OptionMetadata;
 import io.bootique.mybatis.MybatisModule;
@@ -15,7 +15,7 @@ import io.bootique.mybatis.demo.model.mapper.ArtistMapper;
 import io.bootique.mybatis.demo.commands.artist.GetAllArtists;
 import io.bootique.mybatis.demo.model.mapper.PaintingMapper;
 
-public class Application implements BQModule {
+public class Application extends BaseModule {
 
     public static void main(String[] args) {
 
