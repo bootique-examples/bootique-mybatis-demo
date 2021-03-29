@@ -1,3 +1,5 @@
+[![verify](https://github.com/bootique-examples/bootique-mybatis-demo/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-mybatis-demo/actions/workflows/verify.yml)
+
 # bootique-mybatis-demo
 Bootique app demonstrating the usage of bootique-mybatis
 
