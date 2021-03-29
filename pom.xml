@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>io.bootique.mybatis.demo</groupId>
-    <artifactId>bootique.mybatis.demo</artifactId>
+    <artifactId>bootique-mybatis-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>Bootique + Mybatis Demo</name>
