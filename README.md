@@ -3,6 +3,9 @@
 # bootique-mybatis-demo
 Bootique app demonstrating the usage of bootique-mybatis
 
+You can find different versions of framework in use at
+* [2.x](https://github.com/bootique-examples/bootique-mybatis-demo/tree/2.x)
+
 ## Prerequisites
       
     * Java 1.8 or newer.
